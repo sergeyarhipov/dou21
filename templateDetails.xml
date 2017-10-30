@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- Указываем кодировку файла -->
+
+<!DOCTYPE install PUBLIC "-//Joomla! 3.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/3.0/template-install.dtd"> <!-- Важный параметр, необходим, чтобы браузер понимал, как следует интерпретировать текущую веб-страницу, поскольку HTML существует в нескольких версиях -->
+
+<extension version="3.6" type="template" client="site">
+
+<!-- Прописываем общую информацию о шаблоне -->
+<name>DOU-21</name>
+<version>1.0</version>
+<creationDate>05/04/2017</creationDate>
+<author>Sergei Arkhipov</author>
+<authorEmail>s.m.arhipov@mail.ru</authorEmail>
+<authorUrl></authorUrl>
+<copyright>GNU/GPL</copyright>
+<description>dou-21_template</description> <!-- Дополнительная информация о шаблоне -->
+
+<!-- Список файлов и папок шаблонов -->
+<files>
+	<folder>css</folder>
+	<folder>html</folder>
+	<folder>images</folder>
+	<filename>index.php</filename>
+	<filename>templateDetails.xml</filename>
+	<!--<filename>template_preview.png</filename>
+	//<filename>template_thumbnail.png</filename>-->
+</files>
+
+<!-- Прописываем позиции для вывода модулей в шаблоне -->
+<positions>
+	<position>menu-information</position>
+	<position>site-version</position>
+	<position>horizontal-menu1</position>
+	<position>horizontal-menu2</position>
+	<position>news-string</position>
+	<position>vertical-menu</position>
+	<position>find-mod</position>
+	<position>left-bar-mod1</position>
+	<position>left-bar-mod2</position>
+	<position>left-bar-mod3</position>
+	<position>organization-contacts</position>
+	<position>copyright</position>
+</positions>
+
+</extension>
